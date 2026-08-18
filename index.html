@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lista de presentes de casamento de Guilherme e Flávia.">
+  <title>Guilherme &amp; Flávia | Lista de Presentes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <span class="folha folha--esquerda" aria-hidden="true"></span>
+    <span class="folha folha--direita" aria-hidden="true"></span>
+    <div class="hero__conteudo">
+      <div class="monograma" id="monograma" aria-label="Monograma G e F">G <span>&amp;</span> F</div>
+      <p class="sobretitulo">Vamos nos casar</p>
+      <h1 id="nomes-noivos">Guilherme <span>&amp;</span> Flávia</h1>
+      <div class="ornamento" aria-hidden="true"><span></span>❦<span></span></div>
+      <p class="data" id="data-casamento">12 de dezembro de 2026</p>
+      <p class="hero__texto">A maior alegria é celebrar esse novo capítulo ao lado de quem amamos. Se desejar nos presentear, escolha abaixo um pedacinho da nossa próxima aventura.</p>
+      <a class="botao botao--principal" href="#presentes">Escolher um presente <span aria-hidden="true">↓</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="secao-presentes" id="presentes" aria-labelledby="titulo-presentes">
+      <div class="cabecalho-secao">
+        <p class="sobretitulo">Com carinho</p>
+        <h2 id="titulo-presentes">Nossa lista de presentes</h2>
+        <p>Cada presente é uma lembrança que levaremos conosco. Escolha o gesto que mais combina com você.</p>
+      </div>
+      <div class="grade-presentes" id="lista-presentes"></div>
+    </section>
+
+    <section class="mensagem-final">
+      <div class="mensagem-final__ramo" aria-hidden="true">❧</div>
+      <blockquote>“Mais do que coisas, queremos colecionar momentos. Obrigado por fazer parte do nosso.”</blockquote>
+      <p id="assinatura-noivos">Guilherme &amp; Flávia</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com amor para o nosso grande dia <span aria-hidden="true">♡</span></p>
+  </footer>
+
+  <div class="modal" id="modal-presente" aria-hidden="true">
+    <div class="modal__fundo" data-fechar-modal></div>
+    <div class="modal__conteudo" role="dialog" aria-modal="true" aria-labelledby="modal-titulo" tabindex="-1">
+      <button class="modal__fechar" type="button" aria-label="Fechar janela" data-fechar-modal>&times;</button>
+      <p class="sobretitulo">Seu presente</p>
+      <h2 id="modal-titulo"></h2>
+      <p class="modal__valor" id="modal-valor"></p>
+
+      <div class="qrcode" id="qrcode-container">
+        <img id="modal-qrcode" src="" alt="QR Code para pagamento via Pix">
+        <div class="qrcode__placeholder" id="qrcode-placeholder" hidden>
+          <span aria-hidden="true">▦</span>
+          <p>Adicione aqui o QR Code deste presente</p>
+        </div>
+      </div>
+
+      <p class="modal__instrucao">Escaneie o QR Code pelo aplicativo do seu banco ou use o Pix Copia e Cola.</p>
+      <button class="botao botao--pix" id="botao-copiar" type="button">
+        <span aria-hidden="true">▣</span> <span id="texto-botao-copiar">Copiar código Pix</span>
+      </button>
+      <button class="botao botao--whatsapp" id="botao-whatsapp" type="button">
+        Compartilhe uma mensagem com os noivos <span aria-hidden="true">↗</span>
+      </button>
+      <p class="modal__nota">O envio da mensagem é opcional. Você poderá personalizá-la antes de enviar.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
