@@ -142,6 +142,8 @@ h1 { margin: 0; color: var(--verde); font-size: clamp(46px, 8vw, 82px); line-hei
 .mensagem-final p { margin: 28px 0 0; color: #d5e0e5; font-size: 13px; letter-spacing: 3px; text-transform: uppercase; }
 footer { padding: 25px; text-align: center; color: #6e7f88; background: #e6ded2; font-size: 13px; }
 footer span { color: var(--rose); }
+.footer__lead { display: inline-block; margin-top: 7px; color: #7c8d96; font-size: 11px; letter-spacing: .2px; text-decoration: none; transition: color .2s ease; }
+.footer__lead:hover, .footer__lead:focus-visible { color: var(--verde); text-decoration: underline; }
 
 /* Modal */
 .modal { position: fixed; inset: 0; z-index: 20; display: none; place-items: center; padding: 20px; }
