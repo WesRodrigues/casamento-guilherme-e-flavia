@@ -14,26 +14,26 @@ const presentes = [
   {
     nome: "Brinde dos recém-casados",
     descricao: "Para celebrarmos o início dessa nova fase com um brinde cheio de amor e alegria.",
-    valor: "R$ 50,00",
+    valor: "R$ 120,00",
     icone: "🍾",
     qrCode: "images/qrcodes/brinde-recem-casados.png",
-    pixCopiaECola: "00020126360014br.gov.bcb.pix0114+5514996715109520400005303986540550.005802BR5924GUILHERME HENRIQUE COSTA6011PEDERNEIRAS62120508BRINDE506304D23B"
+    pixCopiaECola: "00020126360014br.gov.bcb.pix0114+55149967151095204000053039865406120.005802BR5924GUILHERME HENRIQUE COSTA6011PEDERNEIRAS62130509BRINDE1206304DE23"
   },
   {
     nome: "Café da manhã dos recém-casados",
     descricao: "Para começar o primeiro dia dessa nova história com carinho e café quentinho.",
-    valor: "R$ 70,00",
+    valor: "R$ 130,00",
     icone: "☕",
     qrCode: "images/qrcodes/cafe-da-manha.png",
-    pixCopiaECola: "00020126360014br.gov.bcb.pix0114+5514996715109520400005303986540570.005802BR5924GUILHERME HENRIQUE COSTA6011PEDERNEIRAS62100506CAFE7063040822"
+    pixCopiaECola: "00020126360014br.gov.bcb.pix0114+55149967151095204000053039865406130.005802BR5924GUILHERME HENRIQUE COSTA6011PEDERNEIRAS62110507CAFE1306304A529"
   },
   {
     nome: "Almoço especial na lua de mel",
     descricao: "Uma pausa deliciosa durante a viagem para saborearmos juntos esse momento tão esperado.",
-    valor: "R$ 90,00",
+    valor: "R$ 150,00",
     icone: "🍽️",
     qrCode: "images/qrcodes/almoco-lua-de-mel.png",
-    pixCopiaECola: "00020126360014br.gov.bcb.pix0114+5514996715109520400005303986540590.005802BR5924GUILHERME HENRIQUE COSTA6011PEDERNEIRAS62120508ALMOCO906304A494"
+    pixCopiaECola: "00020126360014br.gov.bcb.pix0114+55149967151095204000053039865406150.005802BR5924GUILHERME HENRIQUE COSTA6011PEDERNEIRAS62130509ALMOCO1506304192C"
   },
   {
     nome: "Noite de cinema a dois",
